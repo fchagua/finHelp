@@ -16,3 +16,9 @@ Entity Framework: Object-Relational Mapper (ORM) for .NET development
 Installed Microsoft.Entity.FrameworkCore.Design, SqlServer, and Tools via NuGet Gallery Toggle
 
 Connected Application Settings to SQL Server Management Studio and initialized the database tables
+
+Controllers: Helps get the API endpoint for specific purpose
+List vs Detail: General List for homepage but when you want more info then you go to detail page
+
+Created API endpoints to get all stocks or get stock by id via Stock Controller
+
