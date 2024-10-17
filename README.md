@@ -22,3 +22,5 @@ List vs Detail: General List for homepage but when you want more info then you g
 
 Created API endpoints to get all stocks or get stock by id via Stock Controller
 
+DTO: Data Tranfer Object, cleans up data when you return important data
+
