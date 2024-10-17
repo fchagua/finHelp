@@ -24,3 +24,4 @@ Created API endpoints to get all stocks or get stock by id via Stock Controller
 
 DTO: Data Tranfer Object, cleans up data when you return important data
 
+Created API endpoint to create a new stock from body 
