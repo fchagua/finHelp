@@ -26,5 +26,6 @@ DTO: Data Tranfer Object, cleans up data when you return important data
 
 Created API endpoint to create a new stock from body (POST API endpoint)
 Created API endpoint to update a current stock from body based on stock id (UPDATE API endpoint)
+Created API endpoint to delete a current stock from database (DELETE API endpoint)
 
 Always try to create a new dto for the task at hand (POST, PUT) because it will help structure requests and modify code in the future
