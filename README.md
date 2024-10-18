@@ -31,3 +31,4 @@ Created API endpoint to delete a current stock from database (DELETE API endpoin
 Always try to create a new dto for the task at hand (POST, PUT) because it will help structure requests and modify code in the future
 
 Async code can allow the program to do multiple tasks at the same time
+Make sure to change any process within the async method to await if it iteracts with the database
