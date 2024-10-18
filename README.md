@@ -32,3 +32,6 @@ Always try to create a new dto for the task at hand (POST, PUT) because it will 
 
 Async code can allow the program to do multiple tasks at the same time
 Make sure to change any process within the async method to await if it iteracts with the database
+
+Separate database calls from the controller with dpeendency injections with abstractions via repository
+Started with getAll stocks method, can apply same technique to other methods in StockController
