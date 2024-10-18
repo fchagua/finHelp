@@ -29,3 +29,5 @@ Created API endpoint to update a current stock from body based on stock id (UPDA
 Created API endpoint to delete a current stock from database (DELETE API endpoint)
 
 Always try to create a new dto for the task at hand (POST, PUT) because it will help structure requests and modify code in the future
+
+Async code can allow the program to do multiple tasks at the same time
