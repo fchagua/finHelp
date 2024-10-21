@@ -35,3 +35,5 @@ Make sure to change any process within the async method to await if it iteracts 
 
 Separate database calls from the controller with dpeendency injections with abstractions via repository
 Started with getAll stocks method, can apply same technique to other methods in StockController
+
+Refactor database related code to repository to ensure abstraction and separation of levels
