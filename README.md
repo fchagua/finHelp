@@ -39,3 +39,7 @@ Started with getAll stocks method, can apply same technique to other methods in 
 Refactor database related code to repository to ensure abstraction and separation of levels
 
 Implement similar methods from stock controller and repository to comment
+
+Data Validation:
+1. Route constraints, force input from route to be a specific data type otherwise it fails
+2. Data Validation Annotations in Dtos
