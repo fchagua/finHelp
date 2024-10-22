@@ -37,3 +37,5 @@ Separate database calls from the controller with dpeendency injections with abst
 Started with getAll stocks method, can apply same technique to other methods in StockController
 
 Refactor database related code to repository to ensure abstraction and separation of levels
+
+Implement similar methods from stock controller and repository to comment
