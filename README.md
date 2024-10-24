@@ -43,3 +43,6 @@ Implement similar methods from stock controller and repository to comment
 Data Validation:
 1. Route constraints, force input from route to be a specific data type otherwise it fails
 2. Data Validation Annotations in Dtos
+
+Data Filtering
+Can add QueryObject class to help filter what data based on parameters and then use it in getAll method
