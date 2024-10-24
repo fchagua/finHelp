@@ -46,3 +46,6 @@ Data Validation:
 
 Data Filtering
 Can add QueryObject class to help filter what data based on parameters and then use it in getAll method
+
+Data Sorting
+Can add SortBy and isDescending parameters to QueryObject class to allow sorting and then implment in repository
