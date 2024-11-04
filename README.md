@@ -49,3 +49,10 @@ Can add QueryObject class to help filter what data based on parameters and then 
 
 Data Sorting
 Can add SortBy and isDescending parameters to QueryObject class to allow sorting and then implment in repository
+
+Pagination
+1. Dont return all results at once 
+2. break data into pages
+.Skip(2) = skip first 2 elements and take remaining elements
+.Take(2) = take first 2 elements
+.Skip(2).Take(2) = develops pagination 
