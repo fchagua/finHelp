@@ -64,3 +64,5 @@ JWT contains header, payload, and secret that is all encrypted
 Packages to install: MS.Extensions.Identity.Core, MS.AspNETCore.Identity.EntityFrameworkCore, and MS.AspNetCore.Authentication.JwtBearer
 
 Identity will provide IdentityUser class with Password, Email, Bio. You can extend the class later on if needed.
+
+UserManager will help manage username and passwords for account login
