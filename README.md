@@ -56,3 +56,11 @@ Pagination
 .Skip(2) = skip first 2 elements and take remaining elements
 .Take(2) = take first 2 elements
 .Skip(2).Take(2) = develops pagination 
+
+JWT for Users
+Each user will log in with email and password
+Application will issue the user a jwt string which it will need to validate
+JWT contains header, payload, and secret that is all encrypted
+Packages to install: MS.Extensions.Identity.Core, MS.AspNETCore.Identity.EntityFrameworkCore, and MS.AspNetCore.Authentication.JwtBearer
+
+Identity will provide IdentityUser class with Password, Email, Bio. You can extend the class later on if needed.
