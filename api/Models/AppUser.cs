@@ -9,5 +9,6 @@ namespace api.Models
     public class AppUser : IdentityUser
     {
         //keep default properties from IdentityUser class
+        public List<Portfolio> Portfolios { get; set; } = new List<Portfolio>();
     }
 }
