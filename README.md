@@ -87,4 +87,6 @@ User and Signing manager to find user and check password
 
 Added Swagger config to allow visualization of Authorized account
 
-Add many-to-many relationship to allow users to have multiple stocks and stocks to have multiple users. We can try to figure out this relationship by using a join table.
+Add many-to-many relationship model to allow users to have multiple stocks and stocks to have multiple users. We can try to figure out this relationship by using a join table.
+
+Add one-to-one relationship model to allow a comment to only have one user and the user is a submodel of the comment  
