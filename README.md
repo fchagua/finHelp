@@ -81,3 +81,8 @@ Process:
 User logs in with email and password
 Send JWT to server
 Once authenticated, ClaimsPrincipal is created
+
+Login Task:
+User and Signing manager to find user and check password
+
+Added Swagger config to allow visualization of Authorized account
