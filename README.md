@@ -66,3 +66,18 @@ Packages to install: MS.Extensions.Identity.Core, MS.AspNETCore.Identity.EntityF
 Identity will provide IdentityUser class with Password, Email, Bio. You can extend the class later on if needed.
 
 UserManager will help manage username and passwords for account login
+
+Create service to generate tokens
+
+Claims: authentication wallet, more generic and broad (old school)
+
+Roles: tag associated with the user, dont require DB and very flexible (new school)
+
+MS has moved away from Roles
+
+Generate JWT on the server and fill it with claims that act like roles which describes the user and what he can do
+
+Process:
+User logs in with email and password
+Send JWT to server
+Once authenticated, ClaimsPrincipal is created
